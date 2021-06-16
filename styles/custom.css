@@ -1,0 +1,24 @@
+<style>
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(231, 231, 231);
+}
+h1 {
+    color: white;
+    background-color: rgb(108, 30, 185);
+    padding: 3mm;
+    font-size: x-large;
+}
+h2 {
+    color: mediumpurple;
+}
+
+h3 {
+    color: cornflowerblue
+}
+
+h4 {
+    color: rgb(99, 127, 202)
+}
+
+</style>
