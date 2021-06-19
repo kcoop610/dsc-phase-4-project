@@ -32,7 +32,9 @@ An "Administration Rate" feature was engineered to represent how many vaccines w
 The best national model forecasts that 66.96% of the US adult population will have received at least one vaccine dose by July 4th, coming short of the 70% goal. However, the goal is within the upper confidence interval.
 
 Upper confidence interval: 72.93%
+
 Forecast: 66.96%
+
 Lower confidence interval: 61.78%
 
 <img src="./images/national_forecast_20210704.jpg">
@@ -41,16 +43,18 @@ Lower confidence interval: 61.78%
 
 ## Regional Analysis
 
-<img src="./images/simplified_regional_trend.jpg">
-
 The Northeast leads the nation, reporting nearly 80% of the adult population has received at least one vaccine dose as of June 13.
 
 The West (63.8%), Midwest (61.1%), and South (57.0%) trail quite significantly. None of these regions are projected to reach the 70% national goal by July 4th.
 
+<img src="./images/simplified_regional_trend.jpg">
+
+
+The south also lags significantly in Administration Rate, which suggests there is vaccine hesitancy as opposed to lack of physical resources in the south.
 
 <img src="./images/Administration Rate Over Time by Region.jpg">
 
-The south also lags significantly in Administration Rate, which suggests there is vaccine hesitancy as opposed to lack of physical resources in the south.
+
 
 
 ## Summary & Recommendations
@@ -78,26 +82,27 @@ In the remaining weeks leading up to July 4th, the Biden administration should t
 
 
 
-#### For Further Information:
+### For Further Information:
 Please review the full report in [this jupyter notebook](./report.ipynb) or review the non-technical [presentation](./presentation.pdf)
 
 For any additional questions, please contact kcoop610@gmail.com.
 
 
-#### Repository Structure:
+### Repository Structure:
 
 ```
 
 ├── README.md            
-├── report.ipynb           
-├── presentation.pdf    
+├── report.ipynb 
+├── functions.py 
+├── presentation.pdf
 ├── images          
 ├── data
     └── COVID-19_Vaccinations_in_the_United_States_Jurisdiction.csv
 ├── styles
     └── custom.css 
 └── pdfs
-    └── repo.pdf
+    ├── repo.pdf
     └── report.pdf
  
 
