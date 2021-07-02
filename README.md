@@ -6,6 +6,12 @@ On May 4, 2021, United States President Biden announced a goal to administer at 
 In this report, a time series analysis is performed on the CDC's public vaccine distribution and administration dataset as of June 13, 2021 to predict whether or not the US will meet the target, then provide the Biden Administration a set of recommended actions to take in the final 3 weeks in order to reach the goal.
 
 
+<img src='./images/Image 7-2-21 at 2.38 PM.jpg'>
+     
+> *COVID-19 vaccination site at Jacob K. Javits Convention Center in Manhattan, New York City. Source: https://www.iso.org/news/ref2652.html*
+
+
+
 ## Data Source
 
 Data for this analysis was sourced from the CDC's [official COVID-19 Vaccination dataset](https://data.cdc.gov/Vaccinations/COVID-19-Vaccinations-in-the-United-States-Jurisdi/unsk-b7fc), on June 13, 2021. Additional steps were complete to:
